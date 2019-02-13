@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ie.learning.products SYSTEM "../../xml_tools/dtds/ie_lp/ie_learning_products.dtd">
+<ie.learning.products secondary.color="blue.hp.2925c" document.type="user.guide"><variable.list.group>
+    <graphic.list delivery.specific="Print">
+        <graphic.source graphic.name="hp.icon">
+            <graphic>
+                <graphic.unit.group>
+                    <graphic.unit.online.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/HP_icon.png"/>
+                    </graphic.unit.online.pdf>
+                    <graphic.unit.print.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/HP_icon.png"/>
+                    </graphic.unit.print.pdf>
+                </graphic.unit.group>
+            </graphic>
+        </graphic.source>
+        <graphic.source graphic.name="frontcover.graphic">
+            <graphic>
+                <graphic.unit.group>
+                    <graphic.unit.online.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/>
+                    </graphic.unit.online.pdf>
+                    <graphic.unit.print.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/>
+                    </graphic.unit.print.pdf>
+                </graphic.unit.group>
+            </graphic>
+
+        </graphic.source>
+        <graphic.source graphic.name="barcode">
+            <graphic>
+                <graphic.unit.group>
+                    <graphic.unit.online.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/barcode.png"/>
+                    </graphic.unit.online.pdf>
+                    <graphic.unit.print.pdf>
+                        <graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/barcode.png"/>
+                    </graphic.unit.print.pdf>
+                </graphic.unit.group>
+            </graphic>
+        </graphic.source>
+        <graphic.source graphic.name="info.icon">
+            <graphic>
+                <graphic.unit.group>
+                    <graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/info.eps"/></graphic.unit.online.pdf>
+                    <graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/info.eps"/></graphic.unit.print.pdf>
+                </graphic.unit.group>
+            </graphic>
+        </graphic.source>
+        <graphic.source graphic.name="product.image">
+            <graphic>
+                <graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/product_info.eps"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/product_info.eps"/></graphic.unit.print.pdf></graphic.unit.group></graphic></graphic.source>
+        <graphic.source graphic.name="printed.in.statement"><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/printedinchina.eps"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/printedinchina.eps"/></graphic.unit.print.pdf></graphic.unit.group></graphic>
+        </graphic.source>
+        <graphic.source graphic.name="printed.on.statement"><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/printedon.eps"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/printedon.eps"/></graphic.unit.print.pdf></graphic.unit.group></graphic>
+        </graphic.source>
+        <graphic.source graphic.name="barcode"><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/barcode.png"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="/home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/barcode.png"/></graphic.unit.print.pdf></graphic.unit.group></graphic>
+        </graphic.source>
+    </graphic.list>
+    <variable.list>
+        <variable.source variable.name="doc.title">
+            <content.unit><para>ACME Printing Products Magna Printer Quick Installation Guide</para>
+                    <para client.key="1111111112" language="zh_cn">ACME印刷产品麦格纳打印机快速安装指南</para>
+                    <para client.key="1111111113" language="de_ww">ACME Printing Produkte Magna Printer Schnellinstallationsanleitung</para>
+                    <para client.key="1111111114" language="fr_ww">ACME Printing Products Magna Printer Guide d'installation rapide</para>
+                    <para client.key="1111111115" language="ja_ww">ACME印刷製品マグナプリンタクイックインストールガイド</para>
+                    <para client.key="1111111116" language="ko_ww">ACME 인쇄 제품 마그나 프린터 빠른 설치 가이드</para>
+                    <para client.key="1111111117" language="it_ww">ACME stampa Prodotti Magna stampante Guida rapida all'installazione</para>
+                    <para client.key="1111111118" language="pt_ww">ACME Produtos Imprensa Magna Printer Guia de instalação rápida</para>
+                    <para client.key="1111111119" language="ru_ww">ACME печать Продукты Магна Принтер Руководство по быстрой установке</para>
+            </content.unit>
+        </variable.source>
+        <variable.source variable.name="support.url">
+            <content.unit><para>HP Support link: <url address="http://www.hp.com/support/ljM436MFP">www.hp.com/support/ljM436MFP</url> thx for visiting, and <ui.element>Home</ui.element> plus, but wait <url address="http://www.hp.com/support/ljM436MFP">www.hp.com/support/ljM436MFP</url> theres more</para></content.unit>
+        </variable.source>
+        <variable.source variable.name="warranty.url">
+            <content.unit><para>HP Warranty link: <url address="http://www.hp.com/warranty/ljM436MFP">www.hp.com/warranty/ljM436MFP</url></para></content.unit>
+        </variable.source>
+        <variable.source variable.name="cp.home">
+<content.unit><para><control.panel.element>Home button</control.panel.element></para></content.unit>
+</variable.source>
+        <variable.source variable.name="google.homepage">
+            <content.unit><para>Google homepage: <control.panel.element>www.google.com</control.panel.element></para></content.unit>
+</variable.source>
+        <variable.source variable.name="copyright.statement">
+<content.unit><para>© Copyright 2016 HP Development Company, L.P.</para></content.unit>
+</variable.source>
+    </variable.list>
+</variable.list.group>
+    <front.matter><document.title>
+<content.unit><para><variable.varref variable.name="doc.title"/></para></content.unit>
+</document.title><document.type.title>
+<content.unit><para></para></content.unit>
+</document.type.title></front.matter>
+    <body><chapter.context><chapter>
+<title><content.unit>
+<para><variable.varref variable.name="doc.title"/></para>
+</content.unit></title>
+<section.body><table id="intro">
+<tgroup cols="2"><colspec colname="col1"/><colspec colname="col2"/>
+<tbody>
+<row>
+<entry><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/some_ONLINE_PDF_file.eps"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/some_PRINT_PDF_file.eps"/></graphic.unit.print.pdf></graphic.unit.group></graphic></entry>
+<entry><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="../graphics/online/some_ONLINE_PDF_file.eps"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/some_PRINT_PDF_file.eps"/></graphic.unit.print.pdf></graphic.unit.group></graphic></entry>
+</row>
+</tbody>
+</tgroup>
+</table>
+<task>
+    <title><content.unit><para>Localized example task:</para></content.unit></title>
+    <intro><content.unit><para>The following task is structured with the Cheetah DTD 'task' element.</para></content.unit></intro>
+<step.group>
+<step>
+    <step.body>
+    <content.unit>
+        <para client.key="1111111111" language="en_ww">Remove eight wood pegs and then release the rear differential cover.</para>
+        <para client.key="1111111112" language="zh_cn">除去8木橛子，然后松开后差速器盖</para>
+        <para client.key="1111111113" language="de_ww">Entfernen Sie acht Holzklammernund dann die hintere Differentialdeckel .</para>
+        <para client.key="1111111114" language="fr_ww">Retirer huit chevilles de bois , puis libérer le couvercle du différentiel arrière .</para>
+        <para client.key="1111111115" language="ja_ww">8木製のペグを外し、リアディファレンシャルカバーをリリース。</para>
+        <para client.key="1111111116" language="ko_ww">팔 나무 못 을 제거한 다음 리어 디퍼렌셜 커버를 놓습니다.</para>
+        <para client.key="1111111117" language="it_ww">Rimuovere otto pioli di legno e poi rilasciare il coperchio del differenziale posteriore .</para>
+        <para client.key="1111111118" language="pt_ww">Remover oito madeira estacas e , em seguida, soltar a tampa do diferencial traseiro .</para>
+        <para client.key="1111111119" language="ru_ww">Удалить восемь деревянные колышки , а затем отпустить крышку заднего дифференциала .</para>
+    </content.unit>
+<figure>
+    <title><content.unit><para>Image placeholder for step 1</para></content.unit></title>
+    <graphic.group>
+    <graphic>
+        <graphic.unit.group>
+            <graphic.unit.online.pdf>
+        <graphic.object file.loc="home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/></graphic.unit.online.pdf>
+            <graphic.unit.print.pdf>
+        <graphic.object file.loc="../graphics/print/placeholder.gif"/></graphic.unit.print.pdf></graphic.unit.group>
+    </graphic>
+    </graphic.group>
+</figure>
+</step.body></step>
+<step><step.body>
+    <content.unit>
+    <para client.key="1111111110" language="en_ww">Open the side cover.</para>
+    <para client.key="1111111120" language="zh_cn">打开侧盖。</para>
+    <para client.key="1111111121" language="de_ww">Öffnen Sie die Seitenabdeckung .</para>
+    <para client.key="1111111122" language="fr_ww">Ouvrez le capot latéral.</para>
+    <para client.key="1111111123" language="ja_ww">サイドカバーを開きます。</para>
+    <para client.key="1111111124" language="ko_ww">측면 덮개를 엽니 다.</para>
+    <para client.key="1111111125" language="it_ww">Aprire il coperchio laterale.</para>
+    <para client.key="1111111126" language="pt_ww">Abra a tampa lateral.</para>
+    <para client.key="1111111127" language="ru_ww">Откройте боковую крышку.</para>
+    </content.unit>
+<figure><graphic.group><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/placeholder.gif"/></graphic.unit.print.pdf></graphic.unit.group></graphic></graphic.group></figure>
+</step.body></step>
+<step><step.body>
+    <content.unit>
+    <para client.key="1111111128" language="en_ww">Unplug the serial connector and parallel connector.</para>
+    <para client.key="11111111230" language="zh_cn">拔下串行连接器和并行连接器。</para>
+    <para client.key="1111111131" language="de_ww">Ziehen Sie den seriellen Anschluss und Parallelanschluss .</para>
+    <para client.key="1111111132" language="fr_ww">Débranchez le connecteur série et le connecteur parallèle.</para>
+    <para client.key="1111111133" language="ja_ww">シリアルコネクタ、パラレルコネクタを抜いてください。</para>
+    <para client.key="1111111134" language="ko_ww">직렬 연결 과 병렬 커넥터 를 분리합니다.</para>
+    <para client.key="1111111135" language="it_ww">Scollegare il connettore seriale e connettore parallelo .</para>
+    <para client.key="1111111136" language="pt_ww">Desligue o conector serial e conector paralelo.</para>
+    <para client.key="1111111137" language="ru_ww">Отсоедините разъем SMPS и разъем HVPS (M436nda) / GND жгут проводов (M436n).</para>
+    </content.unit>
+<figure><graphic.group><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/placeholder.gif"/></graphic.unit.print.pdf></graphic.unit.group></graphic></graphic.group></figure>
+</step.body></step>
+<step><step.body>
+    <content.unit>
+        <para client.key="1111111138" language="en_ww">Unplug the connector from the right fender. Remove four screws. Remove the brake caliper by pulling it in the direction of the arrow.</para>
+        <para client.key="1111111139" language="zh_cn">拔下从右侧翼子板的连接器。卸下四颗螺丝。通过在箭头的方向拉出的制动钳。</para>
+        <para client.key="1111111139" language="de_ww">Ziehen Sie den Stecker aus dem rechten Kotflügel . Entfernen Sie die vier Schrauben . Den Bremssattelin Richtung des Pfeils gezogen wird.</para>
+        <para client.key="1111111139" language="fr_ww">Débranchez le connecteur de l'aile droite . Retirez les quatre vis . Retirer l'étrier de frein en le tirant dans le sens de la flèche.</para>
+        <para client.key="1111111139" language="ja_ww">右フェンダーからのコネクタを抜きます。 4本のネジを外します。矢印の方向に引いて、ブレーキキャリパーを取り外します。</para>
+        <para client.key="1111111139" language="ko_ww">오른쪽 범퍼 의 커넥터를 분리합니다. 나사 4 개를 분리합니다 . 화살표 방향으로 당겨 브레이크 캘리퍼 를 제거한다.</para>
+        <para client.key="1111111139" language="it_ww">Scollegare il connettore dal parafango destro . Rimuovere le quattro viti . Rimuovere la pinza freno tirandolo nella direzione della freccia .</para>
+        <para client.key="1111111139" language="pt_ww">Desligue o conector do quadro à direita. Retire os quatro parafusos. Remover a unidade de fusão, puxando-a na direcção da seta.</para>
+        <para client.key="1111111139" language="ru_ww">Отсоедините разъем от правого кадра. Удалите четыре винта. Выньте печку, потянув его в направлении, указанном стрелкой.</para>
+</content.unit>
+<figure><graphic.group><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/placeholder.gif"/></graphic.unit.print.pdf></graphic.unit.group></graphic></graphic.group></figure>
+</step.body></step>
+    <step><step.body><content.unit><para client.key="1111111238" language="en_ww">Do this, do that, <emphasis>then</emphasis> do something else. Thanks for your cooperation!</para></content.unit>
+<figure><graphic.group><graphic><graphic.unit.group><graphic.unit.online.pdf><graphic.object file.loc="home/jedmondson/PycharmProjects/XmlToPdfBuilder/source/graphics/online/placeholder.gif"/></graphic.unit.online.pdf><graphic.unit.print.pdf><graphic.object file.loc="../graphics/print/placeholder.gif"/></graphic.unit.print.pdf></graphic.unit.group></graphic></graphic.group></figure>
+</step.body></step>
+
+
+</step.group>
+</task>
+    <content.unit>
+<para><variable.varref variable.name="copyright.statement"/></para>
+</content.unit>
+</section.body></chapter></chapter.context></body></ie.learning.products>
